@@ -12,7 +12,7 @@ from utils import get_time, gen_plot, hflip_batch, separate_bn_paras
 from PIL import Image
 from torchvision import transforms as trans
 import math
-import bcolz
+# import bcolz
 
 class face_learner(object):
     def __init__(self, conf, inference=False):
